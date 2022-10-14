@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Notifikasi Repository Github Menggunakan Discord",
+    "date": "28 April 2021",
+    "description": "Discord adalah aplikasi gratis untuk mengakses obrolan yang mirip dengan Slack atau Skype yang memungkinkan pengguna untuk mengobrol secara real time menggunakan teks, suara atau video. Awalnya dibuat untuk video gamer untuk berinteraksi satu sama lain saat bermain game. Discord saat ini semakin populer dengan lebih dari 100 juta pengguna saat ini. Aplikasi ini menampung server atau ruang obrolan tentang berbagai topik, mulai dari game, musik, anime, dan meme cenderung menjadi yang paling populer.",
+    "link": "https://fazaimron27.netlify.app/blog/discord-notification-github-repository"
+  },
+  {
+    "title": "Hosting Website Statis Menggunakan Surge",
+    "date": "22 April 2021",
+    "description": "Surge adalah platform deploy/hosting website statis. Berbeda dengan Netlify dan Vercel, Surge Tidak memerlukan dashboard admin untuk mengelola projek. Surge menggunakan CLI (Command-line interface) yang tentunya sangat simple penggunaanya.",
+    "link": "https://fazaimron27.netlify.app/blog/deploy-static-website-to-surge"
+  },
+  {
+    "title": "Scraping Data Menggunakan NodeJS",
+    "date": "31 March 2021",
+    "description": "Menurut wikipedia, Web scraping merupakan kegiatan yang dilakukan untuk mengambil data tertentu secara semi-terstruktur dari sebuah halaman website. Halaman tersebut umumnya dibangun menggunakan bahasa markup seperti HTML atau XHTML, proses akan menganalisis dokumen sebelum memulai mengambil data.",
+    "link": "https://fazaimron27.netlify.app/blog/scraping-data-with-nodejs"
+  },
+  {
+    "title": "Hosting Aplikasi Laravel Menggunakan Heroku",
+    "date": "11 October 2020",
+    "description": "Heroku adalah sebuah cloud platform yang menjalankan bahasa pemrograman tertentu, Heroku mendukung bahasa pemrograman seperti Ruby, Node.js, Python, Java, PHP, dan lain-lain.",
+    "link": "https://fazaimron27.netlify.app/blog/deploy-laravel-app-to-heroku"
+  },
+  {
+    "title": "Migrasi Database Menggunakan PHP Phinx",
+    "date": "29 September 2020 ",
+    "description": "Phinx adalah sebuah tools migrasi berbasis PHP yang dibuat oleh Rob Morgan. Phinx akan membantu kita memanipulasi database dengan mudah, sehingga kita tidak lagi menulis skema SQL secara manual.",
+    "link": "https://fazaimron27.netlify.app/blog/database-migration-using-php-phinx"
+  }
+]
