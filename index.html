@@ -2,12 +2,13 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
     <!-- CSS -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script src="assets/font/fontawesome.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -15,16 +16,17 @@
     <header>
         <div class="jumbotron">
             <h1>Portfolio</h1>
-            <p>My name is <span class="name">Faza Iman Imron</span> and I am a <span class="job">Backend
-                    Developer</span></p>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="#blog">Blog</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#about">About</a></li>
-            </ul>
-        </nav>
+            <p>
+                My name is <span class="name" id="name"></span> and I am a
+                <span class="job" id="job"></span>
+            </p>
+            <nav>
+                <ul class="nav-center">
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+            </nav>
     </header>
 
     <!-- MAIN -->
@@ -33,43 +35,24 @@
         <div id="content">
             <!-- BLOG -->
             <article id="blog" class="card">
-                <h2>Blog</h2>
+                <h2><i class="fas fa-blog"></i> Blog</h2>
             </article>
 
             <!-- PORTFOLIO -->
             <article id="portfolio" class="card">
-                <h2>Portfolio</h2>
+                <h2><i class="fas fa-briefcase"></i> Portfolio</h2>
             </article>
 
             <!-- ABOUT -->
             <article id="about" class="card">
-                <h2>About</h2>
+                <h2><i class="fas fa-user"></i> About</h2>
 
-                <p>Halo!, Saya Faza Iman Imron, Saya mempunyai mimpi dan cita-cita menjadi Backend Developer, saat ini
-                    saya menempuh kuliah di jurusan ilmu komputer program studi Informatika. Selain Pemogramaman, saya
-                    juga suka bermain futsal(kalo ada yang ngajak sih hehe.</p>
-
-                <h3>How to reach me?</h3>
-                <table>
-                    <tr>
-                        <th>GitHub</th>
-                        <td><a href="https://github.com/fazaimron27" target="_blank">fazaimron27</a></td>
-                    </tr>
-                    <tr>
-                        <th>LinkedIn</th>
-                        <td><a href="https://www.linkedin.com/in/fazaimron27/" target="_blank">fazaimron27</a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th>Instagram</th>
-                        <td><a href="https://www.instagram.com/faza_imron27/" target="_blank">faza_imron27</a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th>Facebook</th>
-                        <td><a href="https://www.facebook.com/fazaimanimron/" target="_blank">fazaimanimron</a>
-                    </tr>
-                </table>
+                <p>
+                    Halo!, Saya Faza Iman Imron, Saya mempunyai mimpi dan cita-cita
+                    menjadi Backend Developer, saat ini saya menempuh kuliah di jurusan
+                    ilmu komputer program studi Informatika. Selain Pemogramaman, saya
+                    juga suka bermain futsal (kalo ada yang ngajak sih hehe <i class="fas fa-smile"></i>).
+                </p>
             </article>
         </div>
 
@@ -80,38 +63,37 @@
                     <h2>Faza Iman Imron</h2>
                     <p>Backend Developer</p>
                     <figure>
-                        <img src="assets/img/profile.jpg">
+                        <img src="assets/img/profile.jpg" />
                     </figure>
                 </header>
                 <section>
-                    <section>
-                        <table>
-                            <tr>
-                                <th>Name</th>
-                                <td>Faza Iman Imron</td>
-                            </tr>
-                            <tr>
-                                <th>Birthday</th>
-                                <td>Oct, 27 2001</td>
-                            </tr>
-                            <tr>
-                                <th>Campus</th>
-                                <td>Amikom Yogyakarta</td>
-                            </tr>
-                        </table>
-
-                    </section>
+                    <div class="profile">
+                        <!-- name -->
+                        <div class="name">
+                            <h3>Name</h3>
+                            <p>Faza Iman Imron</p>
+                        </div>
+                        <!-- Campus -->
+                        <div class="campus">
+                            <h3>Campus</h3>
+                            <p>University of AMIKOM Yogyakarta</p>
+                        </div>
+                        <!-- Button how to reach me to show modal -->
+                        <button id="how-to-reach-me" class="how-to-reach-me-btn"><i class="fas fa-hand-point-right"></i>
+                            How to reach me</button>
                 </section>
             </article>
         </aside>
     </main>
 
     <!-- Button Scroll to top -->
-    <button id="btnToTop" title="Go to top">Back to Top</button>
+    <button id="btnToTop" title="Go to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
 
     <!-- FOOTER -->
     <footer>
-        <p>&#169; 2022 - Portfolio</p>
+        <p>&#169; 2023 - Faza Iman Imron</p>
     </footer>
 
     <!-- JS -->

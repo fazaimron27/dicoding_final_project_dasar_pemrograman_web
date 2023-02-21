@@ -51,6 +51,78 @@ nav a:hover {
   border-radius: 50%;
 }
 
+.how-to-reach-me-btn {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  border: 2px solid #2b3d41;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #2b3d41;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.how-to-reach-me-btn:hover {
+  background-color: #2b3d41;
+  color: white;
+}
+
+.dialog-content p a {
+  text-decoration: none;
+  color: #2b3d41;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.social-media-list {
+  list-style: none;
+}
+
+.social-media-item {
+  margin-top: 5px;
+  font-size: 16px;
+}
+
+.social-media-item i {
+  margin-right: 5px;
+  font-size: 22px;
+  color: #2b3d41;
+}
+
+.social-media-item a {
+  text-decoration: none;
+  color: #2b3d41;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.social-media-item a:hover {
+  text-decoration: underline;
+}
+
+.dialog-footer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.dialog-footer .close-dialog-btn {
+  padding: 10px 20px;
+  border: 2px solid #2b3d41;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #2b3d41;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.dialog-footer .close-dialog-btn:hover {
+  background-color: #2b3d41;
+  color: white;
+}
+
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   border-radius: 5px;
@@ -84,6 +156,12 @@ nav a {
   font-weight: 400;
   text-decoration: none;
   color: white;
+}
+
+.nav-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #content {
@@ -129,6 +207,24 @@ header {
   text-decoration: underline;
 }
 
+.load-more-btn {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  border: 2px solid #2b3d41;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #2b3d41;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.load-more-btn:hover {
+  background-color: #2b3d41;
+  color: white;
+}
+
 .portfolio-card {
   display: inline-block;
   width: 30%;
@@ -169,12 +265,13 @@ header {
 
 .technologies span {
   display: inline-block;
-  background-color: #2b3d41;
-  color: white;
+  color: #2b3d41;
   padding: 5px;
   margin: 2px;
   border-radius: 5px;
-  font-size: 12px;
+  font-size: 11px;
+  font-style: italic;
+  border: 1px solid #4c5f6b;
 }
 
 #btnToTop {
