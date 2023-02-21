@@ -1,20 +1,32 @@
 [
   {
     "title": "Tesla Backend Rest API",
-    "description": "Node.js backend server for Tesla app.",
-    "technologies": ["Node.js", "Express", "MySQL", "Ejs"],
+    "description": "Node.js Rest API.",
+    "technologies": [
+      "Node.js",
+      "Express",
+      "MySQL",
+      "Ejs"
+    ],
     "link": "https://github.com/fazaimron27/tesla-backend-rest-server"
   },
   {
     "title": "Quote Rest API",
     "description": "Laravel Rest API for Quote App.",
-    "technologies": ["PHP", "Laravel", "MySQL"],
+    "technologies": [
+      "PHP",
+      "Laravel",
+      "MySQL"
+    ],
     "link": "https://github.com/fazaimron27/qoute-restapi"
   },
   {
     "title": "Simple MVC",
-    "description": "Simple MVC Framework built with PHP.",
-    "technologies": ["PHP", "MySQL"],
+    "description": "Simple MVC built with PHP.",
+    "technologies": [
+      "PHP",
+      "MySQL"
+    ],
     "link": "https://github.com/fazaimron27/simple-mvc"
   }
 ]
