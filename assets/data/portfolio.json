@@ -12,7 +12,7 @@
   },
   {
     "title": "Quote Rest API",
-    "description": "Laravel Rest API for Quote App.",
+    "description": "Laravel Rest API.",
     "technologies": [
       "PHP",
       "Laravel",
