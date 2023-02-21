@@ -1,14 +1,13 @@
 [
   {
-    "title": "Tesla Backend Rest API",
+    "title": "Pet Care Rest API",
     "description": "Node.js Rest API.",
     "technologies": [
       "Node.js",
       "Express",
-      "MySQL",
-      "Ejs"
+      "MySQL"
     ],
-    "link": "https://github.com/fazaimron27/tesla-backend-rest-server"
+    "link": "https://github.com/petcaredev/pet-care-rest-api"
   },
   {
     "title": "Quote Rest API",
