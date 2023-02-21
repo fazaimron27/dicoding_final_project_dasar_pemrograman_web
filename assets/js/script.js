@@ -25,7 +25,7 @@ fetch('assets/data/blog.json')
         <div class="blog-item">
           <div class="blog-item-header">
             <h3>${item.title}</h3>
-            <p>Posted on ${item.date}</p>
+            <p>${item.date} <i class="fas fa-calendar-alt"></i></p>
           </div>
           <div class="blog-item-content">
             <p>${item.description}</p>
@@ -50,7 +50,7 @@ fetch('assets/data/blog.json')
           <div class="blog-item">
             <div class="blog-item-header">
               <h3>${item.title}</h3>
-              <p>Posted on ${item.date}</p>
+              <p>${item.date} <i class="fas fa-calendar-alt"></i></p>
             </div>
             <div class="blog-item-content">
               <p>${item.description}</p>
